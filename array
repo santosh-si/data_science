@@ -1,0 +1,19 @@
+import sys  
+import numpy as py
+
+k = py.array([1,3,4])
+p = py.ones((3,4))
+o = py.arange(start=1,stop=5,step=2)
+u = py.linspace(start=1,stop=5,num=10,endpoint=True,retstep=False)
+y = py.zeros((4,4))
+t = py.random.rand(5,2)
+l = py.linspace(start=1,stop=5,num=10,endpoint=True)
+v = range(0,100)
+h = py.array(v)
+r = sys.getsizeof(h)
+#ad = py.divide(grid,k)
+grid = py.array([[1,2,3],[4,5,6],[7,8,9]])
+tt = py.transpose(grid)
+app = py.append(grid,[[0,0,0]],axis=0)
+print (grid,tt,app)
+print (r,k,p,o,u,y,t,l)
